@@ -85,8 +85,8 @@ function addPostButton(parent) {
 
 
 
-// function redirectToPostDetails(postId) {
-//     window.location.href = `../post-details/post-details.html`;
-// }
+function redirectToPostDetails(postId) {
+    window.location.href = `../post-details/post-details.html?postId=${postId}`;
+}
 
 

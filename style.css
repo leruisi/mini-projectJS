@@ -1,0 +1,59 @@
+
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 300;
+    background-image: linear-gradient(to left, #D3D3D3, #708090);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 60px;
+
+}
+
+.user-info {
+    background-color: Linen;
+    width: 17%; /* 45% чтобы уместить 2 квадрата в ряду с небольшим промежутком */
+    height: 200px; /* Вы можете настроить высоту под свои нужды */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid lightgray;
+    margin-top: 90px; /* Промежуток между квадратами */
+    border-radius: 50px ;
+
+;
+}
+.user-info:hover{
+    background-color: darkgray;
+    border: 2px solid cornflowerblue;
+}
+
+.user-button {
+    width: 100px;
+    height: 30px;
+    border-radius: 40px;
+    background-color: cornflowerblue;
+    border: 2px solid transparent; /* Добавлен border для сохранения размера при наведении */
+    transition: background-color 0.3s, width 0.3s, height 0.3s; /* Плавный переход */
+    cursor: pointer; /* Установка курсора */
+}
+
+.user-button:hover {
+    background-color: darkgrey;
+    width: 150px; /* Увеличение размера при наведении */
+    height: 40px; /* Увеличение размера при наведении */
+    cursor: grab; /* Изменение курсора при наведении */
+    border-color: cornflowerblue; /* Смена цвета рамки при наведении (если необходимо) */
+}
