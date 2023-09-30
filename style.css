@@ -121,3 +121,72 @@ h2 {
     background-color: cornflowerblue;
     cursor: grab;
 }
+
+
+
+
+/*users-details---------------*/
+
+.usersbg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(100, 149, 237, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+
+    }
+
+
+
+/*#user-posts-details{*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*    align-items: center;*/
+/*    flex-direction: column;*/
+/*    width: 300px;*/
+/*    height: 20%;*/
+
+
+/*}*/
+
+button{
+    width: 100px;
+    height: 30px;
+    background-color: lightgray;
+    margin: 20px auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+/*!* Стили для блока с информацией о постах *!*/
+#user-posts-details {
+    display: flex;
+    flex-wrap: wrap; /* Позволяет блокам с информацией о постах размещаться в ряд */
+    justify-content: space-between; /* Равномерное распределение блоков по ширине родительского контейнера */
+    align-items: center;
+    margin: 20px;
+    width: 90%; /* 90% ширины страницы */
+}
+
+/* Стили для отдельного блока с информацией о посте */
+#user-posts-details > div {
+    width: 800px; /* Равномерное распределение по 5 блоков в ряду, с учетом отступов между ними */
+   height: 100px;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+
+
+
+
+
